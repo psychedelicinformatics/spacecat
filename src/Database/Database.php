@@ -6,10 +6,11 @@ use Repository\DatabaseInterface;
 
 class Database implements DatabaseInterface
 {
-    private string $dbhost = 'localhost';
-    private string $dbname = '3dtest';
-    private string $username = 'root';
-    private string $password = 'Testtest32%';
+    private string $dbhost = '';
+    private string $dbname = '';
+    private string $username = '';
+    private string $password = '';
+
     /**
      * @param int $level
      * @return array
