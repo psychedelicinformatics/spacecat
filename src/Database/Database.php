@@ -3,7 +3,6 @@
 namespace Database;
 
 use Repository\DatabaseInterface;
-use Project\Database\PDOException;
 
 class Database implements DatabaseInterface
 {
